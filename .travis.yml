@@ -6,6 +6,10 @@ env:
     - ANDROID_API_LEVEL=29
     - ANDROID_BUILD_TOOLS_VERSION=29.0.2
 
+dist:
+  - bionic
+  - xenial
+  
 android:
   licenses:
     - 'android-sdk-preview-licenses-.+'
